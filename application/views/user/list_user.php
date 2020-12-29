@@ -14,20 +14,20 @@
                 <a class="nav-link" href="<?php echo base_url("index.php/quiz/index/") ?>"><img src="<?php echo base_url("images/exam.png"); ?>">&nbsp;&nbsp; Ngân hàng bài kiểm tra</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><img src="<?php echo base_url("images/onlearning.png"); ?>">&nbsp;&nbsp; Lớp học trực tuyến</a>
+                <a class="nav-link" href="<?php echo base_url("index.php/online/index/") ?>"><img src="<?php echo base_url("images/onlearning.png"); ?>">&nbsp;&nbsp; Lớp học trực tuyến</a>
             </li>
         </ul>
         <hr class="d-sm-none">
     </div>
     <div class="col-sm-6 class1">
-        <h3>Danh sách người dùng</h3>
+        <h3 style="text-align: center;">Danh sách người dùng</h3>
         <a href="<?php echo base_url("index.php/account/insert/") ?>" class="btn btn-warning">Thêm người dùng</a>
         <br>
         <br>
         <table border="1" class="table">
             <?php foreach ($new_user as $user) : ?>
                 <tr>
-                    <td><a href="<?php echo base_url("index.php/account/edit/" . $user["id"]) ?>"><img style="width: 10%; height: 8%;" src="<?php echo base_url("images/person.png"); ?>">
+                    <td><a href="<?php echo base_url("index.php/account/edit/" . $user["id"]) ?>"><img style="width: 15%; height: 15%;" src="<?php echo base_url("images/icon.jpg"); ?>">
                             <?php echo $user["username"] ?></td>
                     <td><a href="<?php echo base_url("index.php/account/edit/" . $user["id"]) ?>">Sửa</a></td>
                     <td><a href="<?php echo base_url("index.php/account/delete/" . $user["id"]) ?>">Xóa</a></td>

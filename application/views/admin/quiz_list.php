@@ -14,13 +14,21 @@
                 <a class="nav-link active" href="<?php echo base_url("index.php/quiz/index/") ?>"><img src="<?php echo base_url("images/exam.png"); ?>">&nbsp;&nbsp; Ngân hàng bài kiểm tra</a>
             </li>
             <li class="nav-item">
+<<<<<<< HEAD
+                <a class="nav-link" href="<?php echo base_url("index.php/online/index/") ?>"><img src="<?php echo base_url("images/onlearning.png"); ?>">&nbsp;&nbsp; Lớp học trực tuyến</a>
+=======
                 <a class="nav-link" href="#"><img src="<?php echo base_url("images/onlearning.png"); ?>">&nbsp;&nbsp; Lớp học trực tuyến</a>
+>>>>>>> upstream/master
             </li>
         </ul>
         <hr class="d-sm-none">
     </div>
     <div class="col-sm-6 class1">
+<<<<<<< HEAD
+        <h4 style="text-align: center;">DANH SÁCH ĐỀ KIỂM TRA</h4>
+=======
         <h4>Danh sách đề kiểm tra</h4>
+>>>>>>> upstream/master
         <a href="<?php echo base_url("index.php/quiz/insert/")?>" class="btn btn-warning btn1">Thêm mới</a>
         <br>
         <br>

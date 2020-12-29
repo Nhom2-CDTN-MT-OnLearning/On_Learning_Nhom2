@@ -14,7 +14,7 @@
                 <a class="nav-link" href="<?php echo base_url("index.php/quiz/index/") ?>"><img src="<?php echo base_url("images/exam.png"); ?>">&nbsp;&nbsp; Ngân hàng bài kiểm tra</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><img src="<?php echo base_url("images/onlearning.png"); ?>">&nbsp;&nbsp; Lớp học trực tuyến</a>
+                <a class="nav-link" href="<?php echo base_url("index.php/online/index/") ?>"><img src="<?php echo base_url("images/onlearning.png"); ?>">&nbsp;&nbsp; Lớp học trực tuyến</a>
             </li>
         </ul>
         <hr class="d-sm-none">

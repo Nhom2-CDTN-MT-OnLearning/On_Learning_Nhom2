@@ -45,7 +45,7 @@
       </div>
       <div class="col-sm-4 title2" style="text-align: center;">
        
-        <img src="<?php echo base_url("/images/e-learning.png");?>">
+        <iframe width="250" height="215"src="https://www.youtube.com/embed/iKVxvKooQqs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>On-Learning</p>
         <p style="font-size: 14px;">Học trực tuyến hiện đang trở thành xu hướng mới hiện nay vì tốc độ phát triển internet và tính tiện dụng, "học mọi lúc mọi nơi". Chính vì thế, On-Learning đã xây dựng hệ thống elearning với đầy đủ các tính năng hỗ trợ các bạn trong quá trình học tại đây.</p>
       </div>
